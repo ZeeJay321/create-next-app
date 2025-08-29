@@ -1,1 +1,57 @@
 @import "tailwindcss";
+
+.layout-container {
+  @apply w-full h-screen bg-cyan-50;
+}
+
+.layout-header {
+  @apply bg-cyan-600 text-white flex items-center px-4;
+}
+
+.layout-sider {
+  @apply bg-cyan-800 text-white p-4;
+}
+
+.layout-content {
+  @apply p-6 bg-white overflow-auto;
+}
+
+.layout-footer {
+  @apply text-center bg-cyan-100;
+}
+
+.sidebar-title {
+  @apply text-lg font-semibold mb-4;
+}
+
+.sidebar-list {
+  @apply space-y-2;
+}
+
+.nav-link-margin {
+  @apply text-white text-2xl mx-4 hover:underline;
+}
+
+.btn-section {
+  @apply space-y-4 mt-6;
+}
+
+.pagination {
+  @apply my-6;
+}
+
+.new-txt{
+  @apply text-4xl font-bold
+}
+
+.grid-row-col-1{
+  @apply bg-blue-400 p-2 text-center
+}
+
+.grid-row-col-2{
+  @apply bg-red-400 p-2 text-center
+}
+
+.grid-row-col-3{
+  @apply bg-green-400 p-2 text-center
+}
